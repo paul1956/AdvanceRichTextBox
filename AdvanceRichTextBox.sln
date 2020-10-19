@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30608.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3489D7C9-DFCC-4F43-9AD3-9EBAF4B8505F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "AdvancedRichTextBox", "AdvanceRichTextBox\AdvancedRichTextBox.vbproj", "{1A1E3D9C-004E-415B-8797-21DF38203968}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "AdvanceRichTextBoxTestForm", "AdvanceRichTextBoxTestForm\AdvanceRichTextBoxTestForm.vbproj", "{7EAE9501-9A7E-4BBE-8558-93155EABD176}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A1E3D9C-004E-415B-8797-21DF38203968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1E3D9C-004E-415B-8797-21DF38203968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1E3D9C-004E-415B-8797-21DF38203968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1E3D9C-004E-415B-8797-21DF38203968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAE9501-9A7E-4BBE-8558-93155EABD176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAE9501-9A7E-4BBE-8558-93155EABD176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAE9501-9A7E-4BBE-8558-93155EABD176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAE9501-9A7E-4BBE-8558-93155EABD176}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {504DFC93-F219-4CE6-81E6-C232A12661C8}
+	EndGlobalSection
+EndGlobal
