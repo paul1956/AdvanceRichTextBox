@@ -3,7 +3,7 @@
 ' See the LICENSE file in the project root for more information.
 
 <HideModuleName(), DebuggerNonUserCode()>
-Public Module EnumsModule
+Public Module LineNumberDockSidesEnums
     <Flags>
     Public Enum LineNumberDockSides
         None = 0

@@ -5,7 +5,7 @@
 Imports System.ComponentModel
 
 <DefaultProperty("ParentRichTextBox")>
-Friend Class LineNumbersForRichTextBox : Inherits Control
+Partial Friend Class LineNumbersForRichTextBox : Inherits Control
 
     Private WithEvents ZParent As RichTextBox = Nothing
     Private WithEvents ZTimer As New Timer
@@ -599,7 +599,7 @@ Friend Class LineNumbersForRichTextBox : Inherits Control
             _zAutoSizing_Size = New Size(TextRenderer.MeasureText(_zLineNumbers_Format.Replace("0".ToCharArray, "W".ToCharArray, StringComparison.Ordinal), Me.Font).Width, 0)
         End If
 
-        If String.IsNullOrWhiteSpace(Me.ZParent.Text) Then
+        If String.IsNullOrWhiteSpace(Me.ZParent?.Text) Then
             Exit Sub
         End If
 
@@ -1004,16 +1004,5 @@ Friend Class LineNumbersForRichTextBox : Inherits Control
         MyBase.Refresh()
         Me.Update_SizeAndPosition()
     End Sub
-
-    Private Class LineNumberItem
-        Friend _lineNumber As Integer
-        Friend _rectangle As Rectangle
-
-        Friend Sub New(zLineNumber As Integer, zRectangle As Rectangle)
-            _lineNumber = zLineNumber
-            _rectangle = zRectangle
-        End Sub
-
-    End Class
 
 End Class
